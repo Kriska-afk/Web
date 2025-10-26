@@ -1,0 +1,173 @@
+.header__container {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  width: 1920px;
+  height: 96px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  position: absolute;
+  width: 220px;
+  height: 80px;
+  top: 8px;
+}
+
+.header__logo-stroke {
+  position: absolute;
+  top: 14px;
+  left: 64.65px;
+}
+
+.header__logo-img {
+  position: absolute;
+  top: 16px;
+  left: 67px;
+}
+
+.header__logo-corporation {
+  position: absolute;
+  top: 62.48px;
+  left: 64.64px;
+}
+
+.header__input {
+  position: absolute;
+  background-color: #f6f6f6;
+  width: 510px;
+  max-height: 56px;
+  height: auto;
+  top: 20px;
+  left: 320px;
+  gap: 10px;
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+}
+
+.header__input-frame {
+  position: relative;
+  width: 478px;
+  height: 24px;
+  gap: 10px;
+  display: flex;
+}
+
+.header__input-text {
+  position: absolute;
+  width: 444px;
+  height: 22px;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Inter;
+  line-height: 22px;
+}
+
+.header__button {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  transition: transform 0.1s, color 0.2s;
+}
+
+.header__button:active {
+  transform: scale(0.95);
+}
+
+.header__input-button {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.header__input-img {
+  position: absolute;
+  top: -0.03px;
+  left: -0.03px;
+}
+
+.header__user-menu {
+  position: absolute;
+  width: 287px;
+  height: 56px;
+  top: 22px;
+  left: 1573px;
+  gap: 32px;
+  display: flex;
+}
+
+.header__upload {
+  position: relative;
+  width: 87px;
+  height: 24px;
+  gap: 8px;
+  display: flex;
+  top: 16px;
+}
+
+.header__upload-img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.header__upload-img-top {
+  position: absolute;
+  top: -0px;
+  left: 6.37px;
+}
+
+.header__upload-img-bottom {
+  position: absolute;
+  top: 16px;
+  left: 0;
+}
+
+.header__upload-text {
+  position: relative;
+  width: 55px;
+  height: 19px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  margin: 0;
+  top: 2.5px;
+}
+
+.header__bookmark {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+}
+
+.header__settings {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+}
+
+.header__settings-img_stroke {
+  position: absolute;
+  top: -0;
+  left: 1.2px;
+}
+
+.header__settings-img {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.header__avatar {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}

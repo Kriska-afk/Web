@@ -1,0 +1,14 @@
+@import url('css/header.css');
+@import url('css/content.css');
+@import url('css/pricing.css');
+@import url('css/footer.css');
+
+html {
+  box-sizing: border-box;
+}
+*, *::before, *after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
