@@ -1,6 +1,12 @@
 @import url('css/header.css');
 @import url('css/content.css');
 @import url('css/pricing.css');
+@import url('css/testimonials.css');
+@import url('css/hero.css');
+@import url('css/cta.css');
+@import url('css/blog.css');
+@import url('css/team.css');
+@import url('css/partners.css');
 @import url('css/footer.css');
 
 html {
@@ -11,4 +17,7 @@ html {
 }
 body {
   margin: 0;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
 }

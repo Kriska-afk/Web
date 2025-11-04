@@ -1,0 +1,52 @@
+.team__container {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  width: 1920px;
+  height: 560px;
+  margin: 0 auto;
+}
+
+.team__container-first_line {
+  position: absolute;
+  width: 780px;
+  height: 200px;
+  top: 80px;
+  left: 570px;
+  gap: 90px;
+  display: flex;
+}
+
+.team__container-first_line-rectangle {
+  position: absolute;
+  width: 92px;
+  height: 79px;
+  top: -26px;
+  left: 232px;
+}
+
+.team__container-second_line {
+  position: absolute;
+  width: 490px;
+  height: 200px;
+  top: 280px;
+  left: 715px;
+  gap: 90px;
+  display: flex;
+}
+
+.team__container-second_line-rectangle {
+  position: absolute;
+  width: 92px;
+  height: 79px;
+  top: 139px;
+  left: -55px;
+}
+
+.team__container-rectangle {
+  position: absolute;
+  width: 92px;
+  height: 79px;
+  top: 201px;
+  left: 1329px;
+}

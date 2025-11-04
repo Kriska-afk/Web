@@ -1,0 +1,113 @@
+.partners__container {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  width: 1920px;
+  height: 560px;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.partners__container-body {
+  position: absolute;
+  width: 422px;
+  height: 187px;
+  top: 187px;
+  left: 441px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.partners__container-body_title {
+  width: 422px;
+  height: 39px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.partners__container-body_description {
+  width: 422px;
+  height: 44px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.partners__container-body_button {
+  width: 154px;
+  height: 56px;
+  border-radius: 4px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 17px;
+  padding-right: 30px;
+  padding-bottom: 17px;
+  padding-left: 30px;
+  border: none;
+  background-color: #3A4F39;
+  color: #fff;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: transform 0.1s, color 0.2s;
+}
+
+.partners__container-body_button:active {
+  transform: scale(0.95);
+}
+
+.partners__container-icons {
+  position: absolute;
+  width: 456px;
+  height: 340px;
+  top: 110px;
+  left: 1023px;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.partners__container-icons_line {
+  width: auto;
+  height: 80px;
+  gap: 16px;
+  display: flex;
+}
+
+.partners__container-icons_logo {
+  position: relative;
+  width: 220px;
+  height: 80px;
+}
+
+.partners__container-icons_acme_stroke {
+  position: absolute;
+  top: 14px;
+  left: 64.65px;
+}
+
+.partners__container-icons_acme {
+  position: absolute;
+  top: 16px;
+  left: 67px;
+}
+
+.partners__container-icons_corporation {
+  position: absolute;
+  top: 62.48px;
+  left: 64.64px;
+}
