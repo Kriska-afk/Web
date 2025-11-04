@@ -37,6 +37,7 @@
 }
 
 .footer__container-body_description {
+  max-width: 356px;
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
