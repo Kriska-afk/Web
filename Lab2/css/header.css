@@ -1,0 +1,142 @@
+p {
+    white-space: nowrap;
+}
+
+.header__container {
+    display: flex;
+    background-color: #FFF5F0;
+    min-width: 390px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header__container-navbar {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    background-color: #FFF;
+    overflow: hidden;
+    max-height: 80px;
+    margin: 18px 50px;
+    margin-bottom: 0px;
+}
+
+.navbar__logo-container {
+    padding: 20px 24px;
+    background-color: #FF8D4D;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s, color 0.2s;
+}
+
+.navbar__logo-container:active {
+  background-color: orange;
+}
+
+.navbar__logo-container--logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.logo-container__image {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__buttons-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-container__text {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+    font-weight: 550;
+    font-size: 20px;
+    color: #262626;
+}
+
+.buttons-container__text {
+    margin: 0;
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #262626;
+}
+
+.navbar__buttons-container--button {
+    padding: 20px 34px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s, color 0.2s;
+}
+
+.navbar__buttons-container--button:active {
+    background-color: orange;
+}
+
+.light-orange {
+    background-color: #FFEFE5;
+}
+
+.middle-orange {
+    background-color: #FFAE80;
+}
+
+.right-border {
+    border-right: 2px solid #262626;
+}
+
+.left-border {
+    border-left: 2px solid #262626;
+}
+
+.combined_button {
+    display: none;
+}
+
+@media (max-width: 390px) {
+    .header__container-navbar {
+        display: flex;
+        flex: 1;
+        border-radius: 8px;
+        max-height: 62px;
+        margin: 40px 16px;
+        margin-bottom: 0px;
+    }
+
+    .navbar__logo-container {
+        padding: 16px 20px;
+    }
+
+    .logo-container__image {
+        width: 30px;
+        height: 30px;
+    }
+
+    .combined_button {
+        padding: 16px 30px;
+    }
+
+    .logo-container__text {
+        font-weight: 550;
+        font-size: 16px;
+    }
+
+    .logo-image {
+        width: 25px;
+        height: 25px;
+    }
+}

@@ -1,0 +1,317 @@
+.mission {
+    display: flex;
+    background-color: #FFF5F0;
+    min-width: 390px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.mission__container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 100px;
+    background-color: transparent;
+    margin: 200px 162px;
+    margin-bottom: 108px;
+}
+
+.mission__container-sub {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 0px 300px;
+}
+
+.mission__container-sub--button {
+    padding: 10px 20px;
+    background-color: #FFF;
+    border: 2px solid #000;
+    border-radius: 8px;
+    box-shadow: none;
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    display: flex;
+    align-self: center;
+}
+
+.mission__container-sub--title {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    margin: 0;
+}
+
+.mission__container-sub--text {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    margin: 0;
+    white-space: inherit;
+}
+
+.mission__container-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.mission__container-cards--card {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 60px;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    width: 50%;
+    background-color: #FFF;
+}
+
+.card__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__title-text {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    margin: 0;
+}
+
+.card__image {
+    width: 80.58px;
+    height: 80px;
+    position: relative;
+}
+
+.card__text {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0;
+    white-space: inherit;
+}
+
+.card__image-item {
+    position: absolute;
+}
+
+.card__image-1 {
+    top: 46.4px;
+    left: 14.55px;
+}
+
+.card__image-2 {
+    top: 43.84px;
+    left: 55.41px;
+}
+
+.card__image-3 {
+    top: 43.84px;
+    left: 15.42px;
+}
+
+.card__image-4 {
+    top: -0px;
+    left: 38.85px;
+}
+
+.card__image-5 {
+    top: 32.81px;
+    left: 33.84px;
+}
+
+.card__image-6 {
+    top: 54.64px;
+    left: 57.87px;
+}
+
+.card__image-7 {
+    top: 54.89px;
+}
+
+.card__image-8 {
+    top: 2.77px;
+    left: 44.66px;
+}
+
+.card__second_image {
+    width: 106.71px;
+}
+
+.card__image-9 {
+    left: 23.74px;
+}
+
+.card__image-10 {
+    top: 0.12px;
+    left: 65.41px;
+}
+
+.card__image-11 {
+    top: 29.12px;
+    left: 55.83px;
+}
+
+.card__image-12 {
+    top: 29.12px;
+}
+
+.card__image-13 {
+    top: 8.66px;
+    left: 10.08px;
+}
+
+@media (max-width: 390px) {
+    .mission__container {
+        gap: 50px;
+        margin: 80px 16px;
+    }
+
+    .mission__container-sub {
+        gap: 10px;
+        padding: 0px 0px;
+    }
+
+    .mission__container-sub--button {
+        padding: 8px 14px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .mission__container-sub--title {
+        font-size: 38px;
+    }
+
+    .mission__container-cards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .mission__container-cards--card {
+        gap: 40px;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 0px 1px #1E1E1E;
+        width: auto;
+    }
+
+    .card__title-text {
+        font-size: 30px;
+    }
+
+    .card__text {
+        font-size: 16px;
+    }
+
+    .card__image {
+        width: 50.36px;
+        height: 50px;
+    }
+
+    .card__image-1 {
+        top: 29px;
+        left: 9.1px;
+        width: 32.17px;
+        height: 21px;
+    }
+
+    .card__image-2 {
+        top: 27.4px;
+        left: 34.63px;
+        width: 6.15px;
+        height: 6.75px;
+    }
+
+    .card__image-3 {
+        top: 27.4px;
+        left: 9.64px;
+        width: 6.02px;
+        height: 6.68px;
+    }
+
+    .card__image-4 {
+        top: -0px;
+        left: 24.28px;
+        width: 1.8px;
+        height: 18.76px;
+    }
+
+    .card__image-5 {
+        top: 20.5px;
+        left: 21.15px;
+        width: 8.94px;
+        height: 9.5px;
+    }
+
+    .card__image-6 {
+        top: 34.15px;
+        left: 36.17px;
+        width: 14.19px;
+        height: 15.77px;
+    }
+
+    .card__image-7 {
+        top: 34.31px;
+        width: 13.79px;
+        height: 15.63px;
+    }
+
+    .card__image-8 {
+        top: 1.73px;
+        left: 27.91px;
+        width: 14.37px;
+        height: 10.62px;
+    }
+
+    .card__second_image {
+        width: 66.7px;
+    }
+
+    .card__image-9 {
+        left: 14.84px;
+        width: 11.04px;
+        height: 3.6px;
+    }
+
+    .card__image-10 {
+        top: 0.07px;
+        left: 40.88px;
+        width: 11.12px;
+        height: 3.79px;
+    }
+
+    .card__image-11 {
+        top: 18.2px;
+        left: 34.89px;
+        width: 31.8px;
+        height: 31.8px;
+    }
+
+    .card__image-12 {
+        top: 18.2px;
+        width: 31.8px;
+        height: 31.8px;
+    }
+
+    .card__image-13 {
+        top: 5.41px;
+        left: 6.3px;
+        width: 54.04px;
+        height: 21.11px;
+    }
+}

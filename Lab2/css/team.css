@@ -1,0 +1,236 @@
+.team {
+    display: flex;
+    background-color: #FFF5F0;
+    min-width: 390px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.team__container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 100px;
+    background-color: transparent;
+    margin: 0px 162px;
+    margin-bottom: 251px;
+}
+
+.team__container-sub {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    background-color: transparent;
+    padding: 0 250px;
+}
+
+.team__container-sub--button {
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    background: #FFF;
+    align-self: center;
+    justify-content: center;
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.team__container-sub--title {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 130%;
+    text-align: center;
+    margin: 0px;
+}
+
+.team__container-sub--text {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    margin: 0px;
+    white-space: inherit;
+}
+
+.team__container-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.team__container-cards_line {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.team__container-cards_line--card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+    padding: 50px;
+    gap: 30px;
+    background-color: #FFF;
+    width: 50%;
+}
+
+.team__container-card--person {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.team__container-card--person_info {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    flex: 1;
+}
+
+.team__container-card--person_name {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 150%;
+    margin: 0;
+    color: #333333;
+}
+
+.team__container-card--person_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 2px solid #262626;
+    padding: 16px;
+    background-color: #FFDECC;
+    align-self: center;
+}
+
+.team__container-card--button_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+}
+
+.team__container-card--description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 12px;
+    border: 2px solid #262626;
+    padding: 30px;
+    background-color: #FFF5F0;
+}
+
+.team__container-card--description_title {
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 0;
+    color: #333333;
+}
+
+.team__container-card--description_text {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    white-space: inherit;
+    margin: 0;
+    color: #333333;
+}
+
+@media (max-width: 390px) {
+    .team__container {
+        gap: 50px;
+        margin: 0px 16px;
+        margin-bottom: 79px;
+    }
+
+    .team__container-sub {
+        gap: 10px;
+        padding: 0;
+    }
+
+    .team__container-sub--button {
+        padding: 8px 14px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .team__container-sub--title {
+        font-size: 38px;
+    }
+
+    .team__container-sub--text {
+        font-size: 16px;
+    }
+
+    .team__container-cards {
+        gap: 40px;
+    }
+
+    .team__container-cards_line {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .team__container-cards_line--card {
+        box-shadow: 4px 4px 0px 1px #1E1E1E;
+        border-radius: 10px;
+        padding: 30px;
+        gap: 24px;
+        width: auto;
+    }
+
+    .team__container-card--person {
+        gap: 10px;
+    }
+
+    .team__container-card--person_info {
+        gap: 10px;
+    }
+
+    .team__container-card--person_name {
+        font-size: 20px;
+    }
+
+    .team__container-card--person_button {
+        border-radius: 6px;
+        padding: 14px;
+    }
+
+    .team__container-card--button_img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .team__container-card--description {
+        gap: 12px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .team__container-card--description_title {
+        font-size: 20px;
+    }
+
+    .team__container-card--description_text {
+        font-size: 16px;
+    }
+}

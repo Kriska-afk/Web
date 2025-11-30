@@ -1,0 +1,229 @@
+.history {
+    display: flex;
+    background-color: #FFF5F0;
+    min-width: 390px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.history__container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 100px;
+    background-color: transparent;
+    margin: 0px 167px;
+    margin-bottom: 103px;
+}
+
+.history__container-sub {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    background-color: transparent;
+    padding: 0 300px;
+}
+
+.history__container-sub--button {
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    background: #FFF;
+    align-self: center;
+    justify-content: center;
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.history__container-sub--title {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 130%;
+    text-align: center;
+    margin: 0px;
+}
+
+.history__container-sub--text {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    margin: 0px;
+    white-space: inherit;
+}
+
+.history__container-big {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+    padding: 150px;
+}
+
+.history__container-big--cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.history__container-card {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.history__container-card--block {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+    padding: 30px 50px;
+}
+
+.history__container-block--kartinochka {
+    display: flex;
+    flex-direction: row;
+}
+
+.history__container-kartinochka--element {
+    position: relative;
+    width: 29.1px;
+    height: 29.1px;
+}
+
+.history__container-kartinochka--square {
+    position: absolute;
+}
+
+.min_square {
+    top: 0;
+    right: 0;
+}
+
+.history__container-block--ciferki {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 130%;
+    color: #1A1A1A;
+    margin: 0;
+}
+
+.history__container-card--description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.history__container-description--title {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    color: #1A1A1A;
+    margin: 0;
+}
+
+.history__container-description--text {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    color: #333333;
+    margin: 0;
+    white-space: inherit;
+}
+
+@media (max-width: 390px) {
+    .history__container {
+        gap: 50px;
+        margin: 0px 16px;
+        margin-bottom: 80px;
+    }
+
+    .history__container-sub {
+        gap: 10px;
+        padding: 0;
+    }
+
+    .history__container-sub--button {
+        padding: 8px 14px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .history__container-sub--title {
+        font-size: 38px;
+    }
+
+    .history__container-sub--text {
+        font-size: 16px;
+    }
+
+    .history__container-big {
+        box-shadow: 4px 4px 0px 1px #1E1E1E;
+        padding: 50px 20px;
+    }
+
+    .history__container-big--cards {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .history__container-card {
+        flex-direction: column;
+        gap: 30px;
+        align-items:start;
+    }
+
+    .history__container-card--block {
+        box-shadow: 4px 4px 0px 1px #1E1E1E;
+        border-radius: 10px;
+        padding: 20px 24px;
+    }
+
+    .history__container-kartinochka--element {
+        width: 16.66px;
+        height: 16.66px;
+    }
+
+    .history__container-block--ciferki {
+        font-size: 38px;
+    }
+
+    .history__container-card--description {
+        gap: 12px;
+        padding-left: 44px;
+    }
+
+    .history__container-description--title {
+        font-size: 24px;
+    }
+
+    .history__container-description--text {
+        font-size: 16px;
+    }
+
+    .big_square {
+        width: 16.66px;
+        height: 16.66px;
+    }
+
+    .min_square {
+        width: 8.33px;
+        height: 8.33px;
+    }
+}

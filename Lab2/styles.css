@@ -1,0 +1,18 @@
+@import url('css/header.css');
+@import url('css/welcome.css');
+@import url('css/mission.css');
+@import url('css/history.css');
+@import url('css/team.css');
+@import url('css/footer.css');
+
+html {
+  box-sizing: border-box;
+}
+*, *::before, *after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
