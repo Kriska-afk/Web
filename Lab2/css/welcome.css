@@ -1,9 +1,10 @@
 .welcome {
     display: flex;
     background-color: #FFF5F0;
-    min-width: 390px;
+    min-width: auto;
     max-width: 1920px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .welcome__container {
