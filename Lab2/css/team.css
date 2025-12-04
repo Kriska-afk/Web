@@ -156,7 +156,7 @@
     color: #333333;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 450px) {
     .team__container {
         gap: 50px;
         margin: 0px 16px;

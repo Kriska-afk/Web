@@ -94,7 +94,7 @@
 }
 
 
-@media (max-width: 390px) {
+@media (max-width: 450px) {
     .welcome__container {
         padding: 50px 30px;
         gap: 20px;

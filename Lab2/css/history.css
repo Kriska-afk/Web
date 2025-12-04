@@ -148,7 +148,7 @@
     white-space: inherit;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 450px) {
     .history__container {
         gap: 50px;
         margin: 0px 16px;

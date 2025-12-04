@@ -175,7 +175,7 @@
     left: 10.08px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 450px) {
     .mission__container {
         gap: 50px;
         margin: 80px 16px;

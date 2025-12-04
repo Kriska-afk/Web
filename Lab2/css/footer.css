@@ -224,7 +224,7 @@
     color: #656567;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 450px) {
     .footer__container {
         gap: 30px;
         margin: 0px 18px;
